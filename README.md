@@ -1,18 +1,18 @@
-# Groq API Integration Example
+# GroqAPITranslate
 
-This repository contains a simple FastAPI application that demonstrates Groq API integration. The API translates English text into Spanish using a Hugging Face translation pipeline.
+GroqAPITranslate is a simple FastAPI application that demonstrates API integration using Groq. The API translates English text into Spanish using a Hugging Face translation pipeline.
 
 ## Features
 
-- **API Token Authentication:** Protects the translation endpoint.
+- **API Token Authentication:** Secures the translation endpoint.
 - **Translation Endpoint:** Translates English text to Spanish.
 - **Hugging Face Integration:** Uses the `Helsinki-NLP/opus-mt-en-es` model for translation.
-- **FastAPI:** Provides a lightweight web framework for serving the API.
+- **FastAPI:** Provides a lightweight framework for serving the API.
 
 ## Files
 
 - `task3.py`: The main FastAPI application file.
-- `README.md`: This readme file.
+- `README.md`: This file.
 
 ## Setup and Installation
 
@@ -27,5 +27,5 @@ This repository contains a simple FastAPI application that demonstrates Groq API
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/aygunvarol/groq-api-integration.git
-   cd groq-api-integration
+   git clone https://github.com/aygunvarol/GroqAPITranslate.git
+   cd GroqAPITranslate
