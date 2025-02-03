@@ -27,5 +27,5 @@ This repository contains a simple FastAPI application that demonstrates Groq API
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/<aygunvarol>/groq-api-integration.git
+   git clone https://github.com/aygunvarol/groq-api-integration.git
    cd groq-api-integration
