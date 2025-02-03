@@ -34,12 +34,12 @@ GroqAPITranslate is a simple FastAPI application that demonstrates API integrati
 2. **Create and Activate a Virtual Environment:**
 
 
-# On Windows
+#### On Windows
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-# On macOS/Linux
+#### On macOS/Linux
 ```bash
 python3 -m venv venv
 source venv/bin/activate
