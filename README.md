@@ -59,5 +59,22 @@ uvicorn task3:app --reload
 
 ### The API will be available at: http://127.0.0.1:8000
 
+# API Endpoint
 
+## 1. Simple GET Request
 
+```bash
+curl "http://127.0.0.1:8000/translate?text=Hello%2C%20how%20are%20you%3F" -H "token: my_secret_token_12345"
+```
+
+## 2. GET Request with Verbose Output
+
+```bash
+curl -v -X GET "http://127.0.0.1:8000/translate?text=Hello%2C%20how%20are%20you%3F" -H "token: my_secret_token_12345"
+```
+
+## 3. Saving the Response to a File
+
+```bash
+curl "http://127.0.0.1:8000/translate?text=Hello" -H "token: my_secret_token_12345" -o response.json
+```
