@@ -29,10 +29,24 @@ GroqAPITranslate is a simple FastAPI application that demonstrates API integrati
    ```bash
    git clone https://github.com/aygunvarol/GroqAPITranslate.git
    cd GroqAPITranslate
+   ```
 
 2. **Create and Activate a Virtual Environment:**
 
+
+# On Windows
 ```bash
-pip install fastapi uvicorn transformers
+python -m venv venv
+venv\Scripts\activate
+```
+# On macOS/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 3. **Clone the Repository:**
+
+```bash
+pip install fastapi uvicorn transformers
+```
